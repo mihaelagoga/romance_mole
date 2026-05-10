@@ -1,4 +1,4 @@
-# Romance Bridge Occitan
+# Romance MoLE
 
 This repository provides a pipeline that builds and evaluates an Occitan-capable Llama 3.1 model using trans-tokenization, curriculum LoRA training, and a Romance-language Mixture of LoRA Experts (MoLE).
 
