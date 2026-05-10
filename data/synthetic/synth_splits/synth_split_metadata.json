@@ -1,0 +1,42 @@
+{
+  "seed": 42,
+  "ratios": {
+    "train": 0.8,
+    "dev": 0.1,
+    "test": 0.1
+  },
+  "totals": {
+    "train_rows": 800,
+    "dev_rows": 100,
+    "test_rows": 100,
+    "all_rows": 1000
+  },
+  "files": {
+    "train_file": "data\\synthetic\\synth_splits\\train_synth.jsonl",
+    "dev_file": "data\\synthetic\\synth_splits\\dev_synth.jsonl",
+    "test_file": "data\\synthetic\\synth_splits\\test_synth.jsonl"
+  },
+  "per_source": {
+    "dialogue": {
+      "input_file": "data\\synthetic\\dialogocc\\synthetic_dialogue_250.jsonl",
+      "total_rows": 250,
+      "train_rows": 200,
+      "dev_rows": 25,
+      "test_rows": 25
+    },
+    "flores": {
+      "input_file": "data\\synthetic\\flores200occ\\synthetic_flores_500.jsonl",
+      "total_rows": 500,
+      "train_rows": 400,
+      "dev_rows": 50,
+      "test_rows": 50
+    },
+    "morpho": {
+      "input_file": "data\\synthetic\\morphostressocc\\synthetic_stress_test_250.jsonl",
+      "total_rows": 250,
+      "train_rows": 200,
+      "dev_rows": 25,
+      "test_rows": 25
+    }
+  }
+}

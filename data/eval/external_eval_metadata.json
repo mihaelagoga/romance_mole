@@ -1,0 +1,18 @@
+{
+  "dev_file": "data\\eval\\dev_flores200_dev_oc.jsonl",
+  "flores_dev_split_used": "dev",
+  "test_ud_file": "data\\eval\\test_ud_occitan.jsonl",
+  "test_flores_file": "data\\eval\\test_flores200_test_oc.jsonl",
+  "flores_test_split_used": "test",
+  "test_combined_file": "data\\eval\\test_external_occitan_combined.jsonl",
+  "wikipedia_fallback_used": false,
+  "counts": {
+    "dev_flores200_dev_oc": 997,
+    "test_ud_occitan": 800,
+    "test_flores_or_fallback": 1012,
+    "test_combined": 1812
+  },
+  "params": {
+    "ud_max": 800
+  }
+}

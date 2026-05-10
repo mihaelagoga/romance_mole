@@ -1,0 +1,11 @@
+{
+  "input_file": "data\\synthetic\\alpaca_occitan_v2\\alpaca_occitan_v2.jsonl",
+  "seed": 42,
+  "total_rows": 2000,
+  "train_rows": 1600,
+  "dev_rows": 200,
+  "test_rows": 200,
+  "train_file": "data\\synthetic\\alpaca_occitan\\splits\\train_alpaca.jsonl",
+  "dev_file": "data\\synthetic\\alpaca_occitan\\splits\\dev_alpaca_200.jsonl",
+  "test_file": "data\\synthetic\\alpaca_occitan\\splits\\test_alpaca_200.jsonl"
+}

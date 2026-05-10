@@ -1,0 +1,52 @@
+{
+  "input_files": [
+    "data\\eval\\dev_flores200_dev_oc.jsonl",
+    "data\\eval\\dev_flores200_test_oc.jsonl",
+    "data\\eval\\test_flores200_test_oc.jsonl",
+    "data\\eval\\test_ud_occitan.jsonl"
+  ],
+  "output_file": "data\\eval\\eval_external_languedocien_filtered.jsonl",
+  "min_positive_signals": 1,
+  "totals": {
+    "input_rows": 3821,
+    "kept_rows": 3665,
+    "dropped_rows": 156
+  },
+  "per_file_counts": {
+    "dev_flores200_dev_oc.jsonl": {
+      "input_rows": 997,
+      "kept_rows": 991,
+      "dropped_rows": 6
+    },
+    "dev_flores200_test_oc.jsonl": {
+      "input_rows": 1012,
+      "kept_rows": 1007,
+      "dropped_rows": 5
+    },
+    "test_flores200_test_oc.jsonl": {
+      "input_rows": 1012,
+      "kept_rows": 1007,
+      "dropped_rows": 5
+    },
+    "test_ud_occitan.jsonl": {
+      "input_rows": 800,
+      "kept_rows": 660,
+      "dropped_rows": 140
+    }
+  },
+  "reject_reason_counts": {
+    "insufficient_positive_signals": 106,
+    "gascon_articles_eth_era": 18,
+    "gascon_enunciative_que_initial": 13,
+    "gascon_indefinite_ua": 8,
+    "aranese_contractions_deth": 4,
+    "provençal_contractions_dau": 11
+  },
+  "positive_signal_counts": {
+    "articles_lo_la_los_las": 3041,
+    "classical_diacritics": 3379,
+    "elision_apostrophe": 1760,
+    "languedocien_contractions_del_pel_al": 1346,
+    "interrogatives_norma_classica": 163
+  }
+}

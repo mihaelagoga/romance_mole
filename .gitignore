@@ -1,0 +1,17 @@
+# Generated or heavyweight artifacts
+checkpoints/
+models/
+results/
+data/hplt_v3/raw/
+data/hplt_v3/extracted_raw/
+data/hplt_v3/cleaned/
+data/hplt_v3/splits/stage3a_train_hplt.jsonl
+data/tokenizer_training_corpus/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+.env
+__pycache__/
+*.pyc

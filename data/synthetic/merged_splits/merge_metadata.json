@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "inputs": {
+    "train": "data\\synthetic\\synth_splits\\train_synth.jsonl",
+    "dev": "data\\synthetic\\synth_splits\\dev_synth.jsonl",
+    "alpaca_train": "data\\synthetic\\alpaca_occitan\\splits\\train_alpaca.jsonl",
+    "alpaca_dev": "data\\synthetic\\alpaca_occitan\\splits\\dev_alpaca_200.jsonl"
+  },
+  "counts": {
+    "train_rows": 800,
+    "dev_rows": 100,
+    "alpaca_train_rows": 1600,
+    "alpaca_dev_rows": 200,
+    "merged_train_rows": 2400,
+    "merged_dev_rows": 300
+  },
+  "outputs": {
+    "train_file": "data\\synthetic\\merged_splits\\train_merged.jsonl",
+    "dev_file": "data\\synthetic\\merged_splits\\dev_merged.jsonl"
+  }
+}

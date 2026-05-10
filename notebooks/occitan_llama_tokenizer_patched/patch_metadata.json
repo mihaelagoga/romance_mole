@@ -1,0 +1,10 @@
+{
+  "base_model": "proxectonos/Llama-3.1-Carballo",
+  "corpus_file": "data/tokenizer_training_corpus/training_corpus.txt",
+  "original_vocab_size": 128256,
+  "new_vocab_size": 128899,
+  "tokens_added": 702,
+  "morphology_tokens": 258,
+  "corpus_tokens": 500,
+  "created_at": "2026-01-27T12:51:35.417691"
+}
